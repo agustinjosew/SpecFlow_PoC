@@ -1,0 +1,27 @@
+# Archivos de compilación de .NET
+bin/
+obj/
+
+# Archivos de usuario de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos temporales de Windows
+Thumbs.db
+Desktop.ini
+
+# Archivos de paquetes
+# El directorio de paquetes se puede excluir mediante nuget.config
+**/[Pp]ackages/*
+# excepto las extensiones de paquetes
+!**/[Pp]ackages/*.nupkg
+
+# Excluir todos los archivos de configuración de App
+**/App.Config
+!**/App.*.config
+
+# Otros archivos comunes a ignorar
+.DS_Store
+node_modules/
