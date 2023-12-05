@@ -1,13 +1,13 @@
-# Nombre del Proyecto
+# SpecFlow: a Free and Open Source BDD Framework for .NET
 
 ## Descripción
 
-Breve descripción del proyecto.
+SpecFlow is a popular framework for BDD in Microsoft .NET development projects. In this blog post, we’ll explore SpecFlow, how it works, and how it can benefit .NET development projects. With the help of one project, we will learn how to integrate it into the .NET project.
 
 ## Requisitos
 
-- .NET Framework x.x.x
-- Herramientas de DevOps (por ejemplo, Jenkins, Docker, etc.)
+- .NET 6
+- Herramientas de DevOps (Docker)
 
 ## Configuración del entorno
 
