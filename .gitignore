@@ -1,27 +1,218 @@
-# Archivos de compilación de .NET
-bin/
-obj/
-
-# Archivos de usuario de Visual Studio
+# User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Archivos temporales de Windows
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
 Thumbs.db
+
+# Folder config file
 Desktop.ini
 
-# Archivos de paquetes
-# El directorio de paquetes se puede excluir mediante nuget.config
-**/[Pp]ackages/*
-# excepto las extensiones de paquetes
-!**/[Pp]ackages/*.nupkg
+# Recompile files
+*.pdb
+*.exe
+*.dll
+*.runtimeconfig.json
 
-# Excluir todos los archivos de configuración de App
-**/App.Config
-!**/App.*.config
+# NuGet Packages Directory
+**/packages/*
 
-# Otros archivos comunes a ignorar
+# The .vs folder contains personal Visual Studio configuration
+.vs/
+
+# ReSharper is a .NET coding add-in
+_ReSharper.*/
+*ReSharper*/
+
+# TeamCity is a build add-in
+_TeamCity.*
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# dotCover is a Code Coverage Tool
+*.dotCover
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# SpecFlow specific files that may contain machine-specific paths
+**/TestResults/
+*.feature.cs
+*.feature.xlsx
+
+# SpecRun SpecFlow 3+ specific files
+specflow-stepmap-*.json
+specflow-plus.json
+
+# Rider
+.idea/
+
+# User-specific files for Visual Studio Code
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.csproj.FileListAbsolute.txt
+*.cache
+*.crashreport
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.opendb
+*.opensdf
+*.log
+*.tlog
+*.unsuccessfulbuild
+*.bsc
+*.suo
+*.obj
+*.o
+*.pch
+*.pdb
+*.idb
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# Windows Temporary files
+[Tt]emp/
+*.tmp
+*.temp
+
+# Windows Error Reporting
+Report.7z
+Report.cab
+Report.7z
+Report.cab
+
+# OS generated files #
+######################
 .DS_Store
-node_modules/
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+Desktop.ini
+
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CMake
+cmake-build-*/
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
